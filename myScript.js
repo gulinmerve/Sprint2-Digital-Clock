@@ -24,7 +24,7 @@ function startTime() {
 
     document.getElementById("date").innerHTML = today.toLocaleDateString();
 
-    setInterval(startTime, 2000);
+    setInterval(startTime, 1000);
   }
   function checkTime(i) {
     if (i < 10) {
